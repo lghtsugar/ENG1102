@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YorkU Campus Facility Locator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+<body>
+    <header>
+        <h1>YorkU Campus Facility Locator</h1>
+        <input type="text" id="searchBox" placeholder="Search for a location...">
+        <button onclick="searchLocation()">Search</button>
+    </header>
+    
+    <div id="map"></div>
+
+    <footer>
+        <p>&copy; 2025 York University | Campus Locator</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
